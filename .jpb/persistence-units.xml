@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="persistence">
+        <packages>
+          <package value="com" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="p">
+        <packages>
+          <package value="" />
+          <package value="com.tfg.Entities" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="unidad_persistenca">
+        <packages>
+          <package value="com.tfg.bbdd.tablas" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="unidad_persistencia" persistenceXmlPath="src/main/resources/META-INF/persistence.xml">
+        <packages>
+          <package value="com.tfg.bbdd.tablas" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
