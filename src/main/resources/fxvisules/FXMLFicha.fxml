@@ -9,9 +9,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tfg.visual.FXMLFichaController">
    <children>
-      <ImageView fitHeight="725.0" fitWidth="1016.0" layoutX="-3.0" pickOnBounds="true">
+      <ImageView fx:id="fondo" fitHeight="725.0" fitWidth="1016.0" layoutX="-3.0" pickOnBounds="true">
          <image>
             <Image url="@../recursos_fondos/naranja.png" />
          </image>
@@ -22,7 +22,7 @@
             <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" text="Volver" />
         </buttons>
       </ButtonBar>
-      <ImageView fitHeight="552.0" fitWidth="322.0" layoutX="42.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="portada" fitHeight="552.0" fitWidth="322.0" layoutX="42.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../caratulas_peliculas/q719jXXEzOoYaps6babgKnONONX.jpg" />
          </image>
